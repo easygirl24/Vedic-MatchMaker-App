@@ -355,9 +355,9 @@ body {
 
 @media (max-width: 600px) {
     .service-image {
-        width: 200px;
+        width: 350px;
         height: 175px;
-        border-radius: 50px;
+        border-radius: 80px;
     }
 }
 
