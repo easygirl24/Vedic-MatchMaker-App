@@ -57,11 +57,11 @@ body {
     gap: 1rem;
 }
 
-@media (max-width: 750px) {
+/* @media (max-width: 750px) {
     .header-hero-btn-container {
         flex-wrap: wrap;
     }
-}
+} */
 
 .header-hero-btn-container a {
     text-decoration: none;
@@ -355,8 +355,9 @@ body {
 
 @media (max-width: 600px) {
     .service-image {
-        width: 175px;
+        width: 200px;
         height: 175px;
+        border-radius: 50px;
     }
 }
 
