@@ -125,7 +125,7 @@ body {
 
     .hero-paragraph {
         font-size: 1.5rem;
-        width: 40rem;
+        width: 30rem;
     }
 }
 
@@ -355,7 +355,7 @@ body {
 
 @media (max-width: 600px) {
     .service-image {
-        width: 350px;
+        width: 175px;
         height: 175px;
     }
 }
@@ -377,7 +377,7 @@ body {
 @media (max-width:600px) {
     .service2-content-wrapper {
         display: flex;
-        gap: 3rem
+        gap: 2rem
     }
 }
 
@@ -400,6 +400,13 @@ body {
     width: 40rem;
     text-align: center;
 }
+
+@media (max-width:600px) {
+    .our-stories-contents p {
+        width: 30rem;
+    }
+}
+
 
 .cards-container {
     display: flex;
