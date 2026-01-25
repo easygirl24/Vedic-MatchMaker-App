@@ -57,6 +57,12 @@ body {
     gap: 1rem;
 }
 
+@media (max-width: 750px) {
+    .header-hero-btn-container {
+        flex-wrap: wrap;
+    }
+}
+
 .header-hero-btn-container a {
     text-decoration: none;
 }
@@ -112,6 +118,17 @@ body {
     font-size: 1.8rem;
 }
 
+@media (max-width:600px) {
+    .hero-heading {
+        font-size: 3.5rem;
+    }
+
+    .hero-paragraph {
+        font-size: 1.5rem;
+        width: 40rem;
+    }
+}
+
 .hero-image {
     margin-top: 6rem;
     object-fit: cover;
@@ -132,9 +149,15 @@ body {
     margin-top: 10rem;
 }
 
-@media (max-width: 1550px) {
+@media (max-width: 1200px) {
     .how-it-works1 {
         flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 600px) {
+    .how-it-works1 {
+        display: none;
     }
 }
 
@@ -145,7 +168,7 @@ body {
     flex-basis: 50%;
 }
 
-@media (max-width: 1550px) {
+@media (max-width: 1200px) {
     .how-it-works1-content {
         flex-basis: 100%;
     }
@@ -160,9 +183,9 @@ body {
     padding-left: 20rem;
 }
 
-@media (max-width: 1550px) {
+@media (max-width: 1200px) {
     .works {
-        margin-top: 50px;
+        margin-top: 5rem;
     }
 }
 
@@ -191,10 +214,10 @@ body {
     border-top: 1px solid #C7A175;
 }
 
-@media (max-width: 1550px) {
+@media (max-width: 1200px) {
     .how-it-works1 {
         flex-wrap: wrap;
-        padding-left: 80px;
+        padding-left: 8rem;
     }
 }
 
@@ -220,10 +243,16 @@ body {
     margin-top: 10rem;
 }
 
-@media (max-width: 1550px) {
+@media (max-width: 1200px) {
     .how-it-works2 {
         flex-wrap: wrap;
-        padding-left: 70px;
+        padding-left: 8rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .how-it-works2 {
+        display: none;
     }
 }
 
@@ -235,7 +264,7 @@ body {
     flex-basis: 50%;
 }
 
-@media (max-width: 1550px) {
+@media (max-width: 1200px) {
     .how-it-works2-content {
         flex-basis: 100%;
     }
@@ -251,7 +280,7 @@ body {
 
 @media (max-width: 1550px) {
     .works2 {
-        margin-top: 50px;
+        margin-top: 5rem;
     }
 }
 
@@ -324,6 +353,13 @@ body {
     object-fit: cover;
 }
 
+@media (max-width: 600px) {
+    .service-image {
+        width: 350px;
+        height: 175px;
+    }
+}
+
 .service-icon span {
     color: #1FBE58;
     background-color: #C6E6D2;
@@ -334,9 +370,17 @@ body {
 
 .service2-content-wrapper {
     display: flex;
-    gap: 10rem;
+    gap: 7rem;
     text-align:  center;
 }
+
+@media (max-width:600px) {
+    .service2-content-wrapper {
+        display: flex;
+        gap: 3rem
+    }
+}
+
 
 
 .our-stories-container {
@@ -402,6 +446,13 @@ body {
     border-radius: 5px;
     padding: 3px;
     font-size: 1.3rem;
+    display: flex;
+}
+
+@media (max-width: 600px) {
+    .star-icons {
+        flex-wrap: nowrap;
+    }
 }
 
 .find-match-container {
